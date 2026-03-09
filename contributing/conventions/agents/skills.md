@@ -36,7 +36,7 @@ Good `description`:
 ```yaml
 description: >
   Fix convention violations in a lab task or wiki file using the report
-  produced by review-file-by-conventions. Use when a review report exists
+  produced by review-file. Use when a review report exists
   and you want to apply the fixes automatically.
 ```
 

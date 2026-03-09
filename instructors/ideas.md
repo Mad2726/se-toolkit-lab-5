@@ -24,6 +24,7 @@
   - [Lab 5 - DONE - Repository](#lab-5---done---repository)
   - [Lab 5 - DONE - Conventions](#lab-5---done---conventions)
   - [Lab 5 - DONE - Skills](#lab-5---done---skills)
+  - [Lab 5 - DONE](#lab-5---done-1)
 - [Lab Observability - TODO](#lab-observability---todo)
   - [Lab Observability - TODO - Backlog](#lab-observability---todo---backlog)
   - [Lab Telegram Bot - TODO - Task 2](#lab-telegram-bot---todo---task-2)
@@ -70,6 +71,9 @@
 - links should be relative markdown, not just `path/file`
   
   skills: links to conventions
+- number sections
+  Keep Decision 1
+- Remove coverage section
 
 ### Lab 5 - TODO - Config
 
@@ -86,10 +90,10 @@
 - don't use claude-specific words in skills
 - skill /issue
 - skill: review lab
-  - run /review-file-by-conventions in parallel on tasks
+  - run /review-file in parallel on tasks
   - only sonnet
 - skill: review wiki
-  - run /review-file-by-conventions in parallel on wiki files
+  - run /review-file in parallel on wiki files
 - skill /explain-step
   - select step, then run skill on the selection
   - for students - gives complete instructions on how to do the step
@@ -210,6 +214,11 @@
   - bundle all instructions for task 1 in a readable doc
   
   Solution: We'll add a skill that explains a particular step.
+
+### Lab 5 - DONE
+
+- meeting report
+  date and deadline in separate sections
 
 ## Lab Observability - TODO
 

@@ -70,7 +70,7 @@ Steps:
 
 ## Review a file by conventions
 
-Use the `Claude` skill `/review-file-by-conventions <filepath>`.
+Use the `Claude` skill `/review-file <filepath>`.
 
 ## Lessons learned
 
