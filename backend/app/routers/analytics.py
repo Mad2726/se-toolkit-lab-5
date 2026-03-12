@@ -1,4 +1,4 @@
-"""Router for analytics endpoints.
+"""Router for analytics endpoints (Task 2).
 
 Each endpoint performs SQL aggregation queries on the interaction data
 populated by the ETL pipeline. All endpoints require a `lab` query
