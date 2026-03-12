@@ -6,7 +6,7 @@ from sqlmodel.ext.asyncio.session import AsyncSession
 
 from app.database import get_session
 from app.db.interactions import create_interaction, read_interactions
-from app.models.interaction import InteractionLog, InteractionLogCreate, InteractionModel
+from app.models.interaction import InteractionLog, InteractionLogCreate
 
 router = APIRouter()
 
@@ -19,7 +19,7 @@ def _filter_by_item_id(
     return [i for i in interactions if i.item_id == item_id]
 
 
-@router.get("/", response_model=list[InteractionModel])
+@router.get("/", response_model=list[InteractionLog])
 async def get_interactions(
     item_id: int | None = None,
     session: AsyncSession = Depends(get_session),
